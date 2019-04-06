@@ -7,7 +7,15 @@ $primary: mat-palette($green);
 $accent: mat-palette($purple);
 $warn: mat-palette($orange, 800);
 
-$theme: mat-light-theme($primary, $accent, $warn);
+$theme: custom-theme($primary, $accent, $warn);
 // $theme: mat-dark-theme($primary, $accent, $warn);
 
 @include angular-material-theme($theme);
+
+
+// Reset styles
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
