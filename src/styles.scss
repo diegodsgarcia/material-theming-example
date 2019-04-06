@@ -1,5 +1,5 @@
 @import '~@angular/material/theming';
-@import './theming.scss';
+@import 'theming.scss';
 
 @include mat-core();
 
@@ -13,7 +13,7 @@ $theme: custom-theme($primary, $accent, $warn);
 @include angular-material-theme($theme);
 
 
-// Reset styles
+// Reset elements
 * {
   margin: 0;
   padding: 0;

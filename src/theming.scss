@@ -87,20 +87,20 @@ $orange: (
 );
 
 $background : (
-  status-bar: mat-color($mat-grey, 300),
-  app-bar:    mat-color($mat-grey, 100),
-  background: mat-color($mat-grey, 50),
-  hover:      rgba(black, 0.04), // TODO(kara): check style with Material Design UX
-  card:       white,
-  dialog:     white,
-  disabled-button: rgba(black, 0.12),
-  raised-button: white,
-  focused-button: $dark-focused,
-  selected-button: mat-color($mat-grey, 300),
+  status-bar:               mat-color($mat-grey, 300),
+  app-bar:                  mat-color($mat-grey, 100),
+  background:               mat-color($mat-grey, 50),
+  hover:                    rgba(black, 0.04),
+  card:                   white,
+  dialog:                 white,
+  disabled-button:          rgba(black, 0.12),
+  raised-button:          white,
+  focused-button:           $dark-focused,
+  selected-button:          mat-color($mat-grey, 300),
   selected-disabled-button: mat-color($mat-grey, 400),
-  disabled-button-toggle: mat-color($mat-grey, 200),
-  unselected-chip: mat-color($mat-grey, 300),
-  disabled-list-option: mat-color($mat-grey, 200),
+  disabled-button-toggle:   mat-color($mat-grey, 200),
+  unselected-chip:          mat-color($mat-grey, 300),
+  disabled-list-option:     mat-color($mat-grey, 200),
 );
 
 $foreground: (
