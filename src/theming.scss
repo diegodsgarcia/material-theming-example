@@ -131,3 +131,9 @@ $foreground: (
     background: $foreground,
   );
 }
+
+$primary: mat-palette($green);
+$accent: mat-palette($purple);
+$warn: mat-palette($orange, 800);
+
+$theme: custom-theme($primary, $accent, $warn);
